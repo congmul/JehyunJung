@@ -3,6 +3,11 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+ body{
+  background: rgb(20, 30, 85);
+  color: white;
+}
 header {
   padding: 156px 0 100px;
 }
@@ -11,6 +16,21 @@ section {
   padding: 150px 0;
 }
 
+#mainNav{
+  background: rgb(20, 30, 85);
+}
+#name{
+  color: #ebc700;
+}
+
+.headerSection{
+  background: rgb(20, 30, 85);
+}
+
+.viewButton{
+    margin-top: 100px;
+    border-radius: 50%;
+}
 
 /* Start Footer */
 .footer{
