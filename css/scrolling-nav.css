@@ -10,3 +10,71 @@ header {
 section {
   padding: 150px 0;
 }
+
+
+/* Start Footer */
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footerTop{
+  width: 100%;
+  height: 2px;
+  background:white;
+  margin: 0;
+}
+.footerBottom{
+  width: 100%;
+  height: 60px;
+  background:black;
+  padding-top: 1rem;
+  margin: 0;
+  color: gray;
+}
+.copyright{
+  padding-left: 2rem;
+  padding-top: 5px;
+  font-size: 0.8rem;
+}
+
+.icons{
+  font-size: 22px;
+  padding-right: 100px;
+}
+
+.iconsDiv{
+  float: right;
+  margin-right: 30px;
+}
+
+a {
+  color:lightgray;
+  text-decoration: none;
+}
+
+a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+/* Resize container when lower than 767.95px */
+@media (max-width: 767.95px){
+  .container{
+      width: 350px;
+  }
+}
+
+
+/* Resize container when lower than 767.95px */
+@media (max-width: 577px){
+  .footerBottom{
+      height: 100px;
+  }
+  .iconsDiv{
+      float: left;
+  }
+  .icons{
+      padding-left: 50px;
+  }
+}
