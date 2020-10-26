@@ -32,6 +32,10 @@ section {
     border-radius: 50%;
 }
 
+.cards{
+  background: rgb(20, 30, 85);
+}
+
 /* Start Footer */
 .footer{
   position: fixed;
