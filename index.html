@@ -16,10 +16,12 @@
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
 
-   <!-- FontAwesome stylesheet -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-   
+  <!-- FontAwesome stylesheet -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <!-- jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
 
@@ -29,7 +31,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">JEHYUN JUNG</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -53,26 +56,64 @@
 
   <header class="text-white headerSection">
     <div class="container text-center">
-      <h1>Hello, I'm <span id="name">Jehyun Jung.</span></h1>
+      <h1>Hello, I'm <span id="nameHeader">Jehyun Jung.</span></h1>
       <h1>I'm a full-stack web developer.</h1>
-      <a class="js-scroll-trigger" href="#about"><button type="button" class="btn btn-outline-light viewButton"><i class="fas fa-chevron-down"></i></button></a>
+      <a class="js-scroll-trigger" href="#about"><button type="button" class="btn btn-outline-light viewButton"><i
+            class="fas fa-chevron-down"></i></button></a>
     </div>
   </header>
 
-  <section class ="bg-light text-dark" id="about">
+  <section class="bg-light text-dark" id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Problem-Solver,  Quick Learner</h2>
-          <p class="lead">I’m good as a problem-solver. During building a project, I get a lot of problems. I enjoy organizing them, and I try to solve them one by one until solving all. Also, I’m interested in studying new skills and a quick learner. Whenever I start a project, I should learn about new technology frequently, but I do not hesitate to learn it and use it.  </p>
-          <ul>
-            <li>JavaScript</li>
-            <li>Node.js</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
+        <div class="col-lg-5 mx-auto">
+          <!-- <div class="row"  id="profileShot"> -->
+          <img src="./assets/img/JJH.jpeg" id="profileShot" alt="MyHeadshot">
+          <h2>Problem-Solver, Quick Learner</h2>
+          <!-- </div> -->
+          <p class="lead">I’m good as a problem-solver. During building a project, I get a lot of problems. I enjoy
+            organizing them, and I try to solve them one by one until solving all. Also, I’m interested in studying new
+            skills and a quick learner. Whenever I start a project, I should learn about new technology frequently, but
+            I do not hesitate to learn it and use it. </p>
+        </div>
+        <div class="col-lg-7 mx-auto">
+          <div class="skills">
+            <div class="skill">
+              <div class="skill-name">Javascript</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="75"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">Java</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="65"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="75"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="75"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">Node.Js</div>
+              <div class="skill-bar">
+                <div class="skill-per" per="25"></div>
+              </div>
+            </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -83,24 +124,29 @@
           <h2>PROJECTS</h2>
           <div class="card-group">
             <div class="card">
-              <a href ="https://snelson-seattle.github.io/HikeLocal/" target="_blank"><img class="card-img-top" src="./assets/img/Hike_Local.gif" height ="300px" alt="HikeLocal App"></a>
+              <a href="https://snelson-seattle.github.io/HikeLocal/" target="_blank"><img class="card-img-top"
+                  src="./assets/img/Hike_Local.gif" height="300px" alt="HikeLocal App"></a>
               <div class="card-body cards">
                 <h5 class="card-title">HIKE LOCAL</h5>
-                <p class="card-text">This application will give users a list of hiking trails in their area based on a set of criteria.</p>
+                <p class="card-text">This application will give users a list of hiking trails in their area based on a
+                  set of criteria.</p>
               </div>
             </div>
             <div class="card">
-              <a href ="https://congmul.github.io/WeatherDashboard/" target="_blank"><img class="card-img-top" src="./assets/img/WeatherDashboard.gif" height ="300px" alt="Weather DashBoard App"></a>
+              <a href="https://congmul.github.io/WeatherDashboard/" target="_blank"><img class="card-img-top"
+                  src="./assets/img/WeatherDashboard.gif" height="300px" alt="Weather DashBoard App"></a>
               <div class="card-body cards">
                 <h5 class="card-title">Weather DashBoard</h5>
                 <p class="card-text">This is Weather Dashboard. It will display Current weather and 5-day Forecast.</p>
               </div>
             </div>
             <div class="card">
-              <a href ="https://congmul.github.io/WorkDayScheduler/" target="_blank"><img class="card-img-top" src="./assets/img/WorkDayScheduler.gif" height ="300px" alt="WorkDayScheduler App"></a>
+              <a href="https://congmul.github.io/WorkDayScheduler/" target="_blank"><img class="card-img-top"
+                  src="./assets/img/WorkDayScheduler.gif" height="300px" alt="WorkDayScheduler App"></a>
               <div class="card-body cards">
                 <h5 class="card-title">WorkDay Scheduler</h5>
-                <p class="card-text">This is Work Day Scheduler. This app allow a user to save events for each hour of the day.</p>
+                <p class="card-text">This is Work Day Scheduler. This app allow a user to save events for each hour of
+                  the day.</p>
               </div>
             </div>
           </div>
@@ -109,58 +155,63 @@
     </div>
   </section>
 
-  <section class ="bg-light text-dark" id="contact">
+  <section class="bg-light text-dark" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Contact</h2>
           <div class="container">
             <div class="row">
-              <div class="col-md-8 bg-light mb-5 pt-3 pl-5 pr-5 pb-2">
+              <div class="col-md-12 bg-light mb-5 pt-3 pl-5 pr-5 pb-2">
                 <div class="row text-info">
                   <h1 class="underline"></h1>
                 </div>
-                  <form class="row">
-                    <div class="col-md-10 p-0">
-                    <div class="form-group ml-3">
-                      <label for="exampleInputEmail1">Name</label>
-                      <input type="text" class="form-control" id="name" placeholder="Name">
+                <form class="row" action="mailto:congmul@hotmail.com" method="get" enctype="text/plain">
+                  <div class="col-md-10 p-0">
+                    <div class="form-group ml-1">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Name">
                     </div>
-                      <div class="form-group ml-3">
-                        <label for="exampleInputPassword1">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                      </div>
-                      <div class="form-group ml-3">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
-                      </div>
-                    <button type="submit" id="submit" class="btn btn-outline-dark">Submit</button>
-                  </form>
-                </div>
+                    <div class="form-group ml-1">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group ml-1">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" name="comments" rows="4"
+                        placeholder="Message"></textarea>
+                    </div>
+                    <input type="submit" id="submit" value="Send" class="btn btn-outline-dark ml-1" />
+                    <input type="reset" id="reset" value="Reset" class="btn btn-outline-dark" />
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
   </section>
 
-<!-- Start Footer -->
-<footer class="footer">
-  <div class="footerTop">
-  </div>
-  <div class="footerBottom">
-      <div class = "row">
-          <div class = "col-sm-6">
-      <p class="text-left copyright">&#169 2020 Jehyun Jung</p>
-  </div>
-  <div class = "col-sm-6 text-right icons">
-      <div class="iconsDiv"><a href="https://github.com/congmul" target="_blank"><i class="fab fa-github"></i></a></div>
-      <div class="iconsDiv"><a href="https://www.linkedin.com/in/jehyun-jung-bb247813b/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
-  </div>
-</div>
-</div>
-</footer>
+  <!-- Start Footer -->
+  <footer class="footer">
+    <div class="footerTop">
+    </div>
+    <div class="footerBottom">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="text-left copyright">&#169 2020 Jehyun Jung</p>
+        </div>
+        <div class="col-sm-6 text-right icons">
+          <div class="iconsDiv"><a href="https://github.com/congmul" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="iconsDiv"><a href="https://www.linkedin.com/in/jehyun-jung-bb247813b/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -171,6 +222,26 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+
+  <script>
+    $(".languages").css("display", "block");
+    $(".frameworks").css("display", "none");
+    $('.skill-per').each(function () {
+      var $this = $(this);
+      console.log($this);
+      var per = $this.attr('per');
+      $this.css("width", per + '%');
+      $({ animatedValue: 0 }).animate({ animatedValue: per }, {
+        duration: 1000,
+        step: function () {
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        },
+        complete: function () {
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        }
+      });
+    });
+  </script>
 
 </body>
 
