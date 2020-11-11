@@ -12,7 +12,7 @@
 Profile Website
 
 ## Usage
-
+<img src="./assets/img/operating.gif" width="800" >
 
 ## Installation 
 To install necessary dependencies, run the following command:
