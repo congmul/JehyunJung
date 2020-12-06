@@ -12,6 +12,7 @@
 Profile Website
 
 ## Usage
+Link :  https://congmul.github.io/jehyunjung/
 <img src="./assets/img/operating.gif" width="800" >
 
 ## Installation 
