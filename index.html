@@ -111,9 +111,9 @@
                 <div class="skill-per" per="95"></div>
               </div>
             </div>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
 
@@ -128,7 +128,8 @@
                   src="./assets/img/bear_share.gif" height="300px" alt="HikeLocal App"></a>
               <div class="card-body cards">
                 <h5 class="card-title">Bear Share</h5>
-                <p class="card-text">The goal for this project was to build an app where users can buy and sell teddy bears! <br><strong>Sequelize, Node, Express, Handlers, Passport</strong></p>
+                <p class="card-text">The goal for this project was to build an app where users can buy and sell teddy
+                  bears! <br><strong>Sequelize, Node, Express, Handlers, Passport</strong></p>
                 <a href="https://github.com/jre23/bear-share">Github</a>
               </div>
             </div>
@@ -139,7 +140,7 @@
                 <h5 class="card-title">HIKE LOCAL</h5>
                 <p class="card-text">This application will give users a list of hiking trails in their area based on a
                   set of criteria.</p>
-                  <a href="https://github.com/snelson-seattle/HikeLocal">Github</a>
+                <a href="https://github.com/snelson-seattle/HikeLocal">Github</a>
               </div>
             </div>
             <div class="card">
@@ -156,7 +157,8 @@
                   src="./assets/img/eatDaBurger.gif" height="300px" alt="WorkDayScheduler App"></a>
               <div class="card-body cards">
                 <h5 class="card-title">Buger Logger</h5>
-                <p class="card-text">This is a restaurant app that lets users input the names of burgers they'd like to eat. <br><strong>MySQL, Node, Express, Handlers and homemade ORM</strong></p>
+                <p class="card-text">This is a restaurant app that lets users input the names of burgers they'd like to
+                  eat. <br><strong>MySQL, Node, Express, Handlers and homemade ORM</strong></p>
                 <a href="https://github.com/congmul/burgerLogger">Github</a>
               </div>
             </div>
@@ -167,7 +169,7 @@
                 <h5 class="card-title">WorkDay Scheduler</h5>
                 <p class="card-text">This is Work Day Scheduler. This app allow a user to save events for each hour of
                   the day.</p>
-                  <a href="https://github.com/congmul/WorkDayScheduler">Github</a>
+                <a href="https://github.com/congmul/WorkDayScheduler">Github</a>
               </div>
             </div>
           </div>
@@ -187,7 +189,7 @@
                 <div class="row text-info">
                   <h1 class="underline"></h1>
                 </div>
-                <form class="row" action="mailto:congmul@hotmail.com" method="get" enctype="text/plain">
+                <!-- <form class="row" action="https://formspree.io/f/mleoajea" method="POST" enctype="text/plain">
                   <div class="col-md-10 p-0">
                     <div class="form-group ml-1">
                       <label for="name">Name</label>
@@ -195,16 +197,36 @@
                     </div>
                     <div class="form-group ml-1">
                       <label for="email">Email</label>
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                      <input type="text" class="form-control" id="email" name="_replyto" placeholder="Email">
                     </div>
                     <div class="form-group ml-1">
                       <label for="message">Message</label>
-                      <textarea class="form-control" id="message" name="comments" rows="4"
+                      <textarea name="message"></textarea>
+                      <textarea class="form-control" id="message" name="message" rows="4"
                         placeholder="Message"></textarea>
                     </div>
+                    <button type="submit" id="submit" value="Send" class="btn btn-outline-dark ml-1">Send</button>
                     <input type="submit" id="submit" value="Send" class="btn btn-outline-dark ml-1" />
                     <input type="reset" id="reset" value="Reset" class="btn btn-outline-dark" />
                   </div>
+                </form> -->
+                <form class="row" action="https://formspree.io/f/mleoajea" method="POST">
+                  <div class="col-md-10 p-0">
+                    <div class="form-group ml-1">
+                  <label></label>
+                    Email
+                    <input type="text" name="_replyto" class="form-control" placeholder="Email">
+                  
+                </div>
+                <div class="form-group ml-1">
+                  <label>
+                    Message</label>
+                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"></textarea>
+                  
+                </div>
+                  <button type="submit" class="btn btn-outline-dark ml-1">Send</button>
+                  <input type="reset" id="reset" value="Reset" class="btn btn-outline-dark" />
+                </div>
                 </form>
               </div>
             </div>
