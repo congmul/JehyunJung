@@ -19,8 +19,8 @@ Link :  https://congmul.github.io/jehyunjung/
 To install necessary dependencies, run the following command:
 
 
-## Test 
-
+## Version 
+July 30 2021
 
 ## Contributoring
 Contact me by email : congmul@hotmail.com <br>
