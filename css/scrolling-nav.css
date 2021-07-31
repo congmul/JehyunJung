@@ -181,3 +181,14 @@ a:hover {
       padding-left: 50px;
   }
 }
+
+/* Resize container when lower than 577px */
+@media (max-width: 400px ){
+  .mobile-Size-Text{
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .mobile-Size-Text-top{
+    line-height: 35px;
+  }
+}
