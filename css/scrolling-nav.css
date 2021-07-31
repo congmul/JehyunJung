@@ -98,6 +98,15 @@ section {
   border-radius: 2px;
 }
 
+.card-body-text{
+  min-height:170px;
+}
+
+.deploy-gitHub-link{
+  display: fixed;
+  bottom: 0;
+}
+
 .github-link{
   font-weight: bolder;
   color: #ebc700;
